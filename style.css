@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: cornsilk;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav {
+    background-color: rgb(160, 37, 37);
+    
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+a:hover {
+    color: rgb(243, 70, 70);
+    font-weight: bold;
+}
+a:hover::after {
+    content: "🏯";
+}
+
+
+body > header {
+    background-color: rgb(243, 70, 70);
+    color: white;
+    padding-top: 20px;
+}
+header h1{
+    text-align: center;
+    padding-bottom: 15px;
+}
+body > header p {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+main {
+    display: flex;
+    margin: 20px;
+    gap: 10px;
+}
+
+#content{
+    /* flex 3 artinya pembagian luas, 75% */
+    flex: 3;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+aside{
+    flex: 1;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 10px;
+}
+
+h3, h4 {
+    color: crimson;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+}
+tr:hover {background-color: crimson;}
+
+#Sejarah{
+    padding: 10px;
+}
+#Geografis{
+    padding: 10px;
+}
+#Wisata{
+    padding: 10px;
+}
+
+footer{
+    color: white;
+    background-color: crimson;
+    text-align: center;
+}
