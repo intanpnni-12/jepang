@@ -1,3 +1,4 @@
+/* edit body */
 *{
     margin: 0px;
     padding: 0px;
@@ -6,8 +7,12 @@ body {
     background-color: cornsilk;
     font-family: "Quicksand", sans-serif;
 }
+main > div  p {
+      text-indent: 50px;
+      font-family: "Times New Roman", Times, serif;
+}
 
-
+/* edit nav */
 nav a{
     text-decoration: none;
     color: white;
@@ -24,7 +29,7 @@ nav ul {
     padding: 20px;
 }
 
-
+/* edit a */
 a:hover {
     color: rgb(243, 70, 70);
     font-weight: bold;
@@ -34,6 +39,7 @@ a:hover::after {
 }
 
 
+/* edit header */
 body > header {
     background-color: rgb(243, 70, 70);
     color: white;
@@ -42,13 +48,48 @@ body > header {
 header h1{
     text-align: center;
     padding-bottom: 15px;
+    font-family: "Times New Roman", Times, serif;
 }
-body > header p {
+header h3{
+    padding-bottom: 5px;
+    font-family: "Times New Roman", Times, serif;
+}
+header p {
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 
+aside{
+    flex: 1;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 10px;
+}
+
+
+h3, h4 {
+    color: crimson;
+    padding: 5px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+
+/* edit table */
+table {
+  width: 100%;
+}
+th, td {
+  text-align: left;
+  padding: 5px;
+}
+tr:hover {background-color: crimson;}
+
+
+/* edit main */
 main {
     display: flex;
     margin: 20px;
@@ -61,28 +102,6 @@ main {
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-aside{
-    flex: 1;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-    padding: 10px;
-}
-
-h3, h4 {
-    color: crimson;
-}
-
-table {
-  width: 100%;
-}
-
-th, td {
-  text-align: left;
-}
-tr:hover {background-color: crimson;}
-
 #Sejarah{
     padding: 10px;
 }
@@ -92,7 +111,19 @@ tr:hover {background-color: crimson;}
 #Wisata{
     padding: 10px;
 }
+img{
+    padding-bottom: 10px;
+     border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px crimson;
+}
 
+
+/* edit footer */
 footer{
     color: white;
     background-color: crimson;
