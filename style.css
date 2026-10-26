@@ -10,6 +10,7 @@ body {
 main > div  p {
       text-indent: 50px;
       font-family: "Times New Roman", Times, serif;
+      padding-bottom: 5px;
 }
 
 /* edit nav */
